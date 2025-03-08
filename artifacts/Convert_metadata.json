@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "choice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "randomBytes",
+						"type": "bytes32"
+					}
+				],
+				"name": "convert",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Convert.sol": "Convert"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Convert.sol": {
+			"keccak256": "0x7d96ec622458082722ac4db0775dc6d96ab11c7ed65568aa4dc7bfbc28beb83c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fd8cdf0790884f8cb0b18d0a093a13de632c5db2e2d978049554b98834e83fd8",
+				"dweb:/ipfs/QmZg1FF4EZdHd29UEq5o6L7pWR3rNmQHECXGcCPkS4chqx"
+			]
+		}
+	},
+	"version": 1
+}

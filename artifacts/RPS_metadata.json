@@ -1,0 +1,281 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_commitRevealAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_convertAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "addPlayer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allowedPlayers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "choice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "randomBytes",
+						"type": "bytes32"
+					}
+				],
+				"name": "commitChoice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "commitRevealContract",
+				"outputs": [
+					{
+						"internalType": "contract CommitReveal",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "committedHashes",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "convertContract",
+				"outputs": [
+					{
+						"internalType": "contract Convert",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numInput",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numPlayer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "playerNotPlayed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "players",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "choice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "randomBytes",
+						"type": "bytes32"
+					}
+				],
+				"name": "revealChoice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "revealedChoices",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reward",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RPS.sol": "RPS"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CommitReveal.sol": {
+			"keccak256": "0xc79304ec490f8e775bf02561576c9b0e6cffc2fb63450ece3e70d8dee67e9094",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d6410fc73a7f4afe5b2a5ab26c457427adaa5da08b47603204a82f38a7889220",
+				"dweb:/ipfs/QmQ4pLmJVoMEyvSgxPrdj5nqNhZPNME697mk42UKS9DvMD"
+			]
+		},
+		"Convert.sol": {
+			"keccak256": "0x7d96ec622458082722ac4db0775dc6d96ab11c7ed65568aa4dc7bfbc28beb83c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fd8cdf0790884f8cb0b18d0a093a13de632c5db2e2d978049554b98834e83fd8",
+				"dweb:/ipfs/QmZg1FF4EZdHd29UEq5o6L7pWR3rNmQHECXGcCPkS4chqx"
+			]
+		},
+		"RPS.sol": {
+			"keccak256": "0xfe619e125ef308d02bc2cab5854ca8e8ff42690368f9760c7ecd525c5585da69",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://333125f75e79828ac84df421837e1aea51ebc67fed27b4d7ea07a895412da1fe",
+				"dweb:/ipfs/QmdraLraK1kPyRKwXSonZm4szp8y8dWLRobnFjB58Qo5qv"
+			]
+		}
+	},
+	"version": 1
+}
